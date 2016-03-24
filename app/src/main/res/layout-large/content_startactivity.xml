@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.satheesh.switc.Startactivity"
+    tools:showIn="@layout/activity_startactivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dip">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Username (Enter 'admin')"
+            android:singleLine="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="150dp"
+            />
+
+        <EditText android:id="@+id/txtUsername"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Password (Enter 'admin')"
+            android:layout_marginLeft="220dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText android:id="@+id/txtPassword"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+
+            android:password="true"
+            android:singleLine="true"/>
+
+        <Button android:id="@+id/btnLogin"
+            android:layout_width="250dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="200dp"
+            android:layout_height="50dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="100dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

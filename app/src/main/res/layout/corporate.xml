@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+
+
+    >
+    <EditText
+        android:layout_width="250dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="150dp"
+        android:hint="Name"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/editText"
+
+        android:hint="Pass" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"
+
+        android:hint="Email" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Save"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/btnsave"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Prev"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/prev"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Next"
+            android:id="@+id/button"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="300dp"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
